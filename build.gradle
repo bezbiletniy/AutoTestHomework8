@@ -18,7 +18,6 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
     testImplementation 'com.codeborne:selenide:5.19.0'
     testImplementation 'mysql:mysql-connector-java:8.0.22'
-    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
     implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
     testImplementation 'commons-dbutils:commons-dbutils:1.7'
 }
