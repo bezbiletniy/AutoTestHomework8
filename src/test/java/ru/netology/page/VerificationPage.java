@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class VerificationPage {
 
-    private SelenideElement verifyCode = $x("//*[@data-test-id=\"code\"]//self::input");
+    private SelenideElement verifyCode = $x("//span[@data-test-id=\"code\"]//self::input");
     private SelenideElement buttonVerify = $x("//*[@data-test-id=\"action-verify\"]");
     private SelenideElement errorVerify = $x("//*[@data-test-id=\"error-notification\"]");
 
